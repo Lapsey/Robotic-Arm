@@ -3,7 +3,7 @@ import processing.serial.*;
 Serial myPort;
 
 int lastTimeCheck;
-int timeIntervalFlag = 3000; 
+int timeIntervalFlag = 10; 
 
 int X = 0;
 int YL = 0;
