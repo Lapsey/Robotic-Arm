@@ -66,6 +66,6 @@ void mouseWheel(MouseEvent event) {
     count--;
   }
   
-  YL = int(map(constrain(count, 0, 20), 0, 20, 0, 180));
+  YU = int(map(constrain(count, 0, 20), 0, 20, 0, 180));
   output = "X" + X + "YL" + YL + "YU" + YU + "G" + G;
 }
